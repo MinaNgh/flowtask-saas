@@ -3,7 +3,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { useTasks } from "../../context/TaskContext";
 
 export default function TaskCard({ task }) {
-  const { tasks, setTasks } = useTasks();
+  const { setTasks } = useTasks();
 
   const { attributes, listeners, setNodeRef, transform } =
     useDraggable({ id: task.id });
