@@ -36,3 +36,114 @@
     transform: rotate(360deg);
   }
 }
+.board {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  background: #f4f5f7;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.column-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.column {
+  min-height: 300px;
+}
+
+
+.filter-bar, .task-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filter-bar input,
+.filter-bar select,
+.task-form input,
+.task-form select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+.delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.2s ease;
+}
+
+/* hover effect */
+.delete-btn:hover {
+  background-color: #d9363e;
+}
+
+/* click effect */
+.delete-btn:active {
+  transform: sca
+
+}
+
+
+
+.card {
+  display: flex;
+  align-items: center;
+
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* drag handle */
+.drag-handle {
+  cursor: grab;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #999;
+}
+
+/* title takes all space */
+.task-title {
+  flex: 1;
+  margin: 0;
+}
+
+/* 🗑 DELETE BUTTON ON RIGHT */
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+
+  color: #ff4d4f;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+
+
+
