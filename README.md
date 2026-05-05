@@ -10,7 +10,7 @@ https://YOUR-VERCEL-LINK
 ---
 
 ## 📦 GitHub Repository
-https://github.com/YOUR_USERNAME/flowtask-saas
+https://github.com/MinaNgh/flowtask-saas
 
 ---
 
